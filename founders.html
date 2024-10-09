@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founders - JAWS Development Group</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General body styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+/* Navigation styles */
+nav {
+    background-color: #003366;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover {
+    background-color: #004080; /* Darker blue background on hover */
+    color: #fff; /* White text on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+nav a.active {
+    background-color: #555; /* Active link background color */
+    color: white; /* Keep text white */
+    font-weight: bold; /* Bold the active link */
+}
+
+
+        /* Founders section */
+        .founders-section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            padding: 40px;
+            flex-wrap: wrap;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .founder {
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .founder img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .founder img:hover {
+            transform: scale(1.05);
+        }
+
+        .founder h3 {
+            margin: 15px 0 10px;
+            font-size: 1.8em;
+            color: #004080;
+        }
+
+        .founder p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 1em;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .founders-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>JAWS Development Group</h1>
+        <p>Our Dedicated Founders</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="founders.html">Founders</a>
+        <a href="services.html">Services</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="founders">
+        <h2 style="text-align: center; color: #004080;">Meet Our Founders</h2>
+
+        <div class="founders-section">
+            <!-- Jeff Hunter -->
+            <div class="founder">
+                <img src="/Users/wadehunter/Desktop/JAWS Dev Group Site/media/founders/Screenshot 2024-10-08 at 7.46.50 PM.png" alt="Jeff Hunter">
+                <h3>Jeff Hunter</h3>
+                <p>Jeff Hunter is a licensed Civil Engineer with over twenty-five years of experience in managing over a thousand projects for companies such as Amazon, Walmart, and Walgreens.</p>
+            </div>
+
+            <!-- Sandi Hunter -->
+            <div class="founder">
+                <img src="/Users/wadehunter/Desktop/JAWS Dev Group Site/media/founders/Screenshot 2024-10-08 at 7.47.05 PM.png" alt="Sandi Hunter">
+                <h3>Sandi Hunter</h3>
+                <p>Sandi Hunter has over twenty years of experience in land development, property management, and business management.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 JAWS Development Group. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
